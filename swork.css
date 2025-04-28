@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .success-work {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .success-work h2 {
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .work-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .work-gallery img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .partners {
+    background: #2f7a67;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .partners img {
+    height: 60px;
+  }
+  

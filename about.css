@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .bio-card {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .bio-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .bio-image {
+    flex: 1 1 300px;
+    min-width: 300px;
+    max-width: 400px;
+  }
+  
+  .bio-content {
+    flex: 2 1 400px;
+    padding: 30px;
+  }
+  
+  .bio-content h5 {
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .bio-content h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+  }
+  
+  .bio-content p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .bio-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .bio-info p {
+    font-size: 14px;
+  }
+  
+  .social-links {
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+  }
+  
+  .buttons button {
+    background-color: #00b894;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 14px;
+  }
+  
+  .buttons button:hover {
+    background-color: #019875;
+  }
+  
