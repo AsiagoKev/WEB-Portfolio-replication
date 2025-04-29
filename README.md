@@ -45,8 +45,8 @@ The website structure is split across multiple HTML files, each styled with its 
 
 ## Contributors
 
-- **Amahle Mathebula**  
-- **Kelvin Asiago**
+- **Kelvin Asiago**  
+- **Amahle Mathebula**
 
 Each member contributed to the design, layout, coding, and structure of the website in line with collaborative requirements.
 
